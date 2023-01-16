@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donasi</title>
-    <link rel="stylesheet" href="indeks.html">
+    <link rel="stylesheet" href="menu.php">
     <link rel="stylesheet" href="stylee.css">
 </head>
 <body>
@@ -19,7 +19,7 @@
     <h4>Menu</h4>
     <nav>
         <ul>
-            <li><button><a href="indeks.html">Donasi</a></button></li>
+            <li><button><a href="menu.php">Donasi</a></button></li>
         </ul>
     </nav>
     <div class="image">

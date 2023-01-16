@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donasi</title>
-    <link rel="stylesheet" href="indeks.html">
+    <link rel="stylesheet" href="menu.php">
     <link rel="stylesheet" href="stylee.css">
 </head>
 <body>

@@ -16,6 +16,7 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#donasi">Donasi Kemanusiaan</a></li>
                     <li><a href="#zakat">Zakat dan Infaq</a></li>
+                    <li><a href="Table.php">Info</a></li>
                 </ul>
             </div>
         </div>
@@ -39,20 +40,20 @@
             <div class="listDonasi">
                 <div class="fotoDonasi">
                     <img src="Gempa.jpeg">
-                    <a href="form-donasi.php" class="kb">Korban Bencana Gempa Bumi Cianjur</a>
+                    <a href="formdonasi.php" class="kb">Korban Bencana Gempa Bumi Cianjur</a>
                     <p>Rp. 100.000.000,00 - </p>
                 </div>
                 <div class="listDonasi">
                     <div class="fotoDonasi">
                         <img src="https://tse4.mm.bing.net/th?id=OIP.78vz8TYPMKgIMnvZTTng-gHaDv&pid=Api&P=0">
-                        <a href="form-donasi.php">Merenovasi sekolah di Pedalaman</a>
+                        <a href="formdonasi.php">Merenovasi sekolah di Pedalaman</a>
                         <p>Rp. 175.000.000,00 - </p>
                     </div>
                 <div class="listDonasi">
                     <div class="fotoDonasi">
                         <img src="https://tse1.mm.bing.net/th?id=OIP.WV1-nKgGIAwCeksrbbLcawHaFA&pid=Api&P=0">
-                        <a href="form-donasi.php">Membangun Jembatan bagi warga Desa Ciawi</a>
-                        <p>Rp. 475.000.000,00 - </p>
+                        <a href="formdonasi.php">Membangun Jembatan bagi warga Desa Ciawi</a>
+                        <p>Rp. 475.000.000.000 - </p>
                     </div>    
                 </div>
             </div>
@@ -68,12 +69,11 @@
             <div class="listZakat">
                 <div class="fotoZakat">
                     <img src="https://ringgitplus.com/img/wysiwyg/zakat-1.349904769.jpg" >
-                    <a href="form-donasi.php">Zakat</a>
+                    <a href="formdonasi.php">Zakat</a>
                 </div>
                 <div class="fotoZakat">
                     <img src="https://tse1.mm.bing.net/th?id=OIP.Wna6cU1KUSipA5mAWiQ7SQHaEK&pid=Api&P=0" >
-                    <a href="form-donasi.php">Infaq</a>
-                <div class="fotoDonasi"></div>
+                    <a href="formdonasi.php">Infaq</a>
                 </div>
             </div>
         </div>

@@ -25,7 +25,7 @@
                 <th>Telepon/HP</th>
                 <th>Jenis Donasi</th>
                 <th>Pengkhususan Donasi</th>
-                <th>Keterangan Donasi</th>
+                <th>Metode Pembayaran</th>
                 <th>Jumlah (Rp.)</th>
             </tr>
         </thead>
@@ -37,16 +37,16 @@
 
         while($donatur = mysqli_fetch_array($query)){
             echo"<tr>";
-            echo "<td>".$donatur['Nama']."</td>";
-            echo "<td>".$donatur['E-mail']."</td>";
-            echo "<td>".$donatur['Telepon/HP']."</td>";
-            echo "<td>".$donatur['Jenis Donasi']."</td>";
-            echo "<td>".$donatur['Pengkhususan Donasi']."</td>";
-            echo "<td>".$donatur['Keterangan Donasi']."</td>";
-            echo "<td>".$donatur['Jumlah (Rp.)']."</td>";
+            echo "<td>".$donatur['nama']."</td>";
+            echo "<td>".$donatur['telepon']."</td>";
+            echo "<td>".$donatur['email']."</td>";
+            echo "<td>".$donatur['jenisDonasi']."</td>";
+            echo "<td>".$donatur['pengkhususanDonasi']."</td>";
+            echo "<td>".$donatur['metodePembayaran']."</td>";
+            echo "<td>".$donatur['JumlahRp']."</td>";
 
             echo "<td>";
-            echo "<a href='form-donasi.php?id=".$donatur['Nama']."'>Edit</a> | ";
+            echo "<a href='form-donasi.php?id=".$donatur['nama']."'>Edit</a> | ";
             echo "</td>";
 
             echo "</tr>";

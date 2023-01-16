@@ -7,6 +7,8 @@ error_reporting(E_ALL);
 if($_POST['donasi']){
 
     //ambil data dari form-donasi 
+    $nomor = $_POST['nomor'];
+
     $nama = $_POST['nama'];
     $telepon = $_POST['telepon'];
     $email = $_POST['email'];
@@ -16,10 +18,11 @@ if($_POST['donasi']){
     $jumlahRp = $_POST['jumlahRp'];
 
 // buat query 
-$sql = "INSERT INTO formdonasi (nama, telepon, email, jenisDonasi,
- pengkhususanDonasi, metodePembayaran, jumlahRp)
-VALUE ('$nama','$telepon','$email','$jenisDonasi','$pengkhususanDonasi','$metodePembayaran','$jumlahRp')"; 
-$query = mysqli_query($db,$sql) or  die(mysqli_error($db));;
+$sql = "UPDATE formdonasi SET nama = '$nama', telepon = '$telepon', email = '$email', jenisDonasi = '$jenisDonasi',
+ pengkhususanDonasi = '$pengkhususanDonasi',
+  metodePembayaran = '$metodePembayaran',
+   jumlahRp = '$jumlahRp' WHERE nomor='$nomor'";
+ $query = mysqli_query($db,$sql) or  die(mysqli_error($db));;
 
 //apakah query simpan berhasil?
 if($query) {
@@ -27,7 +30,7 @@ if($query) {
     header('Location: table.php?status=sukses');
 }else {
     //kalau gagal alihkan ke halaman index.php dengan status=gagal
-    header('Location: table.php?status=gagal');
+    header('Location: index.php?status=gagal');
 }
 
 }else {

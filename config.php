@@ -1,12 +1,10 @@
 <?php
 $server = "localhost";
 $user = "root";
-$password = "root";
-$namadb = "Donasi";
+$password ="";
+$namadb = "donasi";
 
-include 'indeks.html';
-
-$db = mysqli_connect($server, $user, $password,$namadb);
+$db = mysqli_connect("localhost","root","","donasi");
 
 if(!$db){
     die("Gagal terhubung dengan database :" . mysqli_connect_error());
