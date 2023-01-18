@@ -44,6 +44,7 @@
             echo "<td>".$donatur['pengkhususanDonasi']."</td>";
             echo "<td>".$donatur['metodePembayaran']."</td>";
             echo "<td>".$donatur['JumlahRp']."</td>";
+            echo "<td>".$donatur['hasil']."</td>";
 
             echo "<td>";
             echo "<a href='form-donasi.php?id=".$donatur['nama']."'>Edit</a> | ";

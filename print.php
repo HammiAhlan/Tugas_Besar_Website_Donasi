@@ -33,7 +33,6 @@ else if(isset($_GET['status']) && $_GET['status']=="gagal"){
             <th>metodePembayaran</th>
             <th>jumlahRp</th>
             <th>keterangan</th>
-            <th>aksi</th>
         </thead>
         <tbody>
             <?php
@@ -51,10 +50,7 @@ else if(isset($_GET['status']) && $_GET['status']=="gagal"){
                 echo "<td>" . $donasi['jumlahRp'] . "</td>";
                 echo "<td>" . $donasi['keterangan'] . "</td>";
                 ?>
-  <td>
-              <a href="update-donasi.php?id=<?php echo $donasi['nomor']; ?>">Edit</a> |
-              <a href="proses-hapus-donasi.php?id=<?php echo $donasi['nomor']; ?>" onclick="return confirm('Anda yakin akan menghapus data ini?')">Hapus</a>
-          </td>
+  
   <?php
           
                 echo "</tr>";
